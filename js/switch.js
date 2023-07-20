@@ -1,3 +1,39 @@
+// EJEMPLO DE SWITCH
+
+// SWITCH
+
+// let numero = 2;
+
+// if (numero > 1) {
+//   console.log("El numero es UNO");
+// } else if (numero === 2) {
+//   console.log("El numero es DOS");
+// } else if (numero === 3) {
+//   console.log("El numero es TRES");
+// } else {
+//   console.log("El numero no es del rango válido");
+// }
+
+// switch (numero) {
+//   case 1: {
+//     console.log("El numero es UNO");
+//     break;
+//   }
+//   case 2: {
+//     console.log("El numero es DOS");
+//     break;
+//   }
+//   case 3: {
+//     console.log("El numero es TRES");
+//     break;
+//   }
+//   default: {
+//     console.log("El numero no es del rango válido");
+//     break;
+//   }
+// }
+
+
 /*
 2- Escribir un programa que solicite una nota (número) de 0 a 10. Luego mostrar la calificación en un alert según los siguientes rangos de nota:
 
@@ -56,3 +92,41 @@ if (isNaN(numero)) {
 }
 
 // SEGUNDA VERSION ------------------------------------------
+
+// let numero = 'hola';
+
+// switch (numero) {
+//   case 0:
+//   case 1:
+//   case 2: {
+//     console.log("Muy deficiente");
+//     break;
+//   }
+//   case 3:
+//   case 4: {
+//     console.log("Insuficiente");
+//     break;
+//   }
+//   case 5:
+//   case 6: {
+//     console.log("Suficiente");
+//     break;
+//   }
+//   case 7: {
+//     console.log("Bien");
+//     break;
+//   }
+//   case 8:
+//   case 9: {
+//     console.log("Notable");
+//     break;
+//   }
+//   case 10: {
+//     console.log("Sobresaliente");
+//     break;
+//   }
+//   default: {
+//     console.log("Ingrese un numero valido");
+//     break;
+//   }
+// }

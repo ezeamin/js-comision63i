@@ -25,8 +25,10 @@ let cadena = '';
 while (true) {
   let texto = prompt('Ingrese texto');
 
+  // Toca cancelar
   if (texto === null) {
     break;
+    // continue;
   }
 
   cadena = cadena + '-' + texto;
