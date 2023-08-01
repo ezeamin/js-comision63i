@@ -19,7 +19,7 @@ const pelicula = {
     // }
 
     //metodos
-    reproducir: function () {
+    reproducir() {
         document.write("La pelicula se está reproduciendo");
     },
     pausar: () => {
@@ -27,23 +27,27 @@ const pelicula = {
     }
 }
 
-const pelicula2 = {
-    //propiedades -> clave: valor
-    titulo: "Barbie",
-    duracion: duracionPelicula,
-    genero: ["comedia", "drama", "musical", "fantasia"],
-    fechaDeEstreno: "03/08/2023",
-    estreno: false,
-    // actores: {
-    //     actorPrincipal: "egh",
-    //     actoresSecundarios: [Eze, {}]
-    // }
+console.log(pelicula)
+// document.write(pelicula);
 
-    //metodos
-    reproducir: function () {
-        document.write("La pelicula se está reproduciendo");
-    },
-    pausar: () => {
-        document.write("La pelicula está pausada");
-    }
-}
+//Acceder a una propiedad
+document.write(`<h1>${pelicula.titulo}</h1>`);
+console.log(pelicula.titulo);
+document.write(`<p>${pelicula.duracion}</p>`);
+document.write(`<p>${pelicula["fechaDeEstreno"]}</p>`);
+
+
+//modificar una propiedad
+pelicula.duracion = "2:00";
+document.write(`<p>${pelicula.duracion}</p>`);
+
+//agregar una propiedad
+pelicula.clasificacion = "+13"
+
+console.log(pelicula);
+
+//eliminar una propiedad
+delete pelicula.estreno
+
+//accedemos a metodo de un objeto
+pelicula.reproducir()
