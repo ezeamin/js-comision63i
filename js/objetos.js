@@ -24,6 +24,11 @@ const pelicula = {
     },
     pausar: () => {
         document.write("La pelicula está pausada");
+    },
+    monstrarDatos(){
+        document.write(`
+            ${this.titulo}
+        `);
     }
 }
 
@@ -50,4 +55,6 @@ console.log(pelicula);
 delete pelicula.estreno
 
 //accedemos a metodo de un objeto
-pelicula.reproducir()
+// pelicula.reproducir()
+
+pelicula.monstrarDatos()
