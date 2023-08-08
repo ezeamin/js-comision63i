@@ -15,10 +15,10 @@ Input:  40773821
 Output: ‘L’
 
 */
-const letras = 'TRWAGMYFPDXBNJZSQVHLCKET';
+const letras = "TRWAGMYFPDXBNJZSQVHLCKET";
 
 while (true) {
-  let numero = prompt('Ingrese su numero de documento');
+  let numero = prompt("Ingrese su numero de documento");
 
   if (numero === null) {
     // CANCELAR - SALIR
@@ -30,7 +30,7 @@ while (true) {
   // Verificamos rango Y que sea un número
   if (isNaN(numero) || numero < 0 || numero > 99999999) {
     // Rango no valido
-    alert('Ingrese un número valido');
+    alert("Ingrese un número valido");
     continue;
   }
 

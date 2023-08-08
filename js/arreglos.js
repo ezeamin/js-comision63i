@@ -1,15 +1,15 @@
-let arreglo = ['🍟', '🌭', '🍷'];
+let arreglo = ["🍟", "🌭", "🍷"];
 let numerosDeLaRifa = [652, 147, 2, 3, 695];
-let alumnos = ['Bianca', 'Ernesto', 'Enzo', 'Martin'];
+let alumnos = ["Bianca", "Ernesto", "Enzo", "Martin"];
 let miPrimerArreglo = [];
-let emojis = ['🫠', '😠', '😶‍🌫️'];
+let emojis = ["🫠", "😠", "😶‍🌫️"];
 
 // console.log(arreglo.length);
 
 // console.log(arreglo);
 
 // Agrega un elemento al final
-arreglo.push('🥐');
+arreglo.push("🥐");
 
 // console.log(arreglo);
 
@@ -19,12 +19,12 @@ arreglo.pop();
 // console.log(arreglo);
 
 // Asignar un nuevo valor a una posicion específica
-arreglo[1] = '🥟';
+arreglo[1] = "🥟";
 
 // console.log(arreglo);
 
 // Agregar al comienzo
-arreglo.unshift('🥤');
+arreglo.unshift("🥤");
 
 // console.log(arreglo);
 
@@ -34,8 +34,8 @@ arreglo.shift();
 // console.log(arreglo);
 
 // Encontrar el índice de ese elemento
-let indiceNoValido = arreglo.indexOf('🌭');
-let indiceValido = arreglo.indexOf('🍟');
+let indiceNoValido = arreglo.indexOf("🌭");
+let indiceValido = arreglo.indexOf("🍟");
 
 // -1 cuando NO encuentra el elemento
 // otro valor cuando sí
@@ -51,7 +51,7 @@ arreglo.splice(1, 1);
 // console.log(arreglo);
 
 // Agregue 1 elemento desde la posicion 1
-arreglo.splice(1, 0, '🍸');
+arreglo.splice(1, 0, "🍸");
 
 // Param1: Desde qué posicion
 // Param2: Cant de elementos a eliminar
@@ -68,12 +68,12 @@ const nuevosEmojis = emojis.slice(1, 3);
 // console.log(nuevosEmojis)
 
 // Detectar si incluye o no algun elemento
-const incluye = emojis.includes('🫠');
+const incluye = emojis.includes("🫠");
 
 // console.log(incluye)
 
 // Unir elementos del arreglo en un string
-const lista = alumnos.join('-');
+const lista = alumnos.join("-");
 
 // console.log(lista)
 
@@ -115,7 +115,6 @@ console.log(emojis.length);
 // });
 
 // console.log(alumnosFiltrados);
-
 
 /*
 Crear un arreglo

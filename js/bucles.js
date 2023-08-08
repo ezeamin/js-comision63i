@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // Muestra por consola la palabra "Mario" 5 veces
 /*let i = 0;
@@ -21,9 +21,9 @@ for (let i = 0; i < 5; i += 1) {
 Nota: usar confirm() https://www.w3schools.com/jsref/met_win_confirm.asp
 */
 
-let cadena = '';
+let cadena = "";
 while (true) {
-  let texto = prompt('Ingrese texto');
+  let texto = prompt("Ingrese texto");
 
   // Toca cancelar
   if (texto === null) {
@@ -31,7 +31,7 @@ while (true) {
     // continue;
   }
 
-  cadena = cadena + '-' + texto;
+  cadena = cadena + "-" + texto;
 }
 
 console.log(`CADENA : ${cadena}`);

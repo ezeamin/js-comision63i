@@ -21,7 +21,7 @@ for (let i = 0; i < texto.length; i += 1) {
     letra === "e" ||
     letra === "i" ||
     letra === "o" ||
-    letra === "u" 
+    letra === "u"
   ) {
     cantidadDeVocales += 1;
   }

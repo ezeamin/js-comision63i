@@ -3,18 +3,18 @@
 */
 
 const meses = [
-  'Enero',
-  'Febrero',
-  'Marzo',
-  'Abril',
-  'Mayo',
-  'Junio',
-  'Julio',
-  'Agosto',
-  'Septiembre',
-  'Octubre',
-  'Noviembre',
-  'Diciembre',
+  "Enero",
+  "Febrero",
+  "Marzo",
+  "Abril",
+  "Mayo",
+  "Junio",
+  "Julio",
+  "Agosto",
+  "Septiembre",
+  "Octubre",
+  "Noviembre",
+  "Diciembre",
 ];
 
 /*
@@ -23,8 +23,8 @@ const meses = [
 </ul>
 */
 
-document.write('<ul>');
+document.write("<ul>");
 meses.forEach((mes) => {
   document.write(`<li>${mes}</li>`);
 });
-document.write('</ul>');
+document.write("</ul>");

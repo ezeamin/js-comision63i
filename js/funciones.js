@@ -22,28 +22,28 @@ const calculadora = (num1, num2, operacion) => {
   let resultado = 0;
 
   switch (operacion) {
-    case 'suma': {
+    case "suma": {
       resultado = num1 + num2;
       break;
     }
-    case 'resta': {
+    case "resta": {
       resultado = num1 - num2;
       break;
     }
-    case 'multiplicacion': {
+    case "multiplicacion": {
       resultado = num1 * num2;
       break;
     }
-    case 'division': {
+    case "division": {
       if (num2 === 0) {
-        console.error('El denominador no puede ser 0');
+        console.error("El denominador no puede ser 0");
         break;
       }
       resultado = num1 / num2;
       break;
     }
     default: {
-      console.error('No ingresó una operacion válida');
+      console.error("No ingresó una operacion válida");
     }
   }
 
@@ -58,16 +58,16 @@ const saludarGabi = () => {
 
 // OTRA LOGICA  -------------------------------
 
-const num1 = Number(prompt('Ingrese el primer numero'));
-const num2 = Number(prompt('Ingrese el segundo numero'));
+const num1 = Number(prompt("Ingrese el primer numero"));
+const num2 = Number(prompt("Ingrese el segundo numero"));
 
 if (isNaN(num1) || isNaN(num2)) {
-  alert('Ingrese numeros válidos');
+  alert("Ingrese numeros válidos");
 } else {
-  const resultado = calculadora(num1, num2, 'division');
+  const resultado = calculadora(num1, num2, "division");
   console.log(resultado);
 }
 
-saludar('Juan');
+saludar("Juan");
 
 saludarMundo();

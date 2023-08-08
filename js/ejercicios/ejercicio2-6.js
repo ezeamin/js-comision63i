@@ -18,7 +18,7 @@
 
 // Primer bucle, para c/ numero
 for (let i = 0; i < 10; i++) {
-  let cadena = '';
+  let cadena = "";
 
   // Segundo bucle, para las repeticiones de ese número
   for (let j = 0; j < i; j++) {

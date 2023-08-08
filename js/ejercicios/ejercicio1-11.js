@@ -34,7 +34,6 @@ if (input % 2 === 0 || input % 3 === 0 || input % 5 === 0 || input % 7 === 0) {
   console.log(`El numero ${input} NO es divisible ni en 2,3,5, ni 7`);
 }
 
-
 // METODO 2 - VARIABLE BANDERA
 
 // Prompt
