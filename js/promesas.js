@@ -43,17 +43,18 @@
 const url = 'https://thesimpsonsquoteapi.glitch.me/quotes';
 // res = response
 try {
-  const res = await fetch(url);
-  const data = await res.json();
+  // const res = await fetch(url);
+  // const data = await res.json();
+  const res = await axios.get(url);
 
-  console.log(data)
+  console.log(res);
 
-  const img = document.createElement("img");
+  const data = res.data
+
+  const img = document.createElement('img');
   img.src = data[0].image;
 
-  document.body.appendChild(img)
-
-  console.log(data);
+  document.body.appendChild(img);
 } catch (err) {
   console.error(err);
 }
